@@ -1,21 +1,33 @@
+.topo {
+
+    background-color: aqua;
+    margin-top: 2px;
+    height: 45px;
+}
 .cabecalho{
     background-color: rgb(50, 50, 179);
+    height: 100px;
     
 
 }
 .corpo{
     margin-top: 2px;
+    height: 1500px;
+}
+.corpo #foto-de-frente{
+
+    width: 500px;
+    height: 1000px;
+    position:relative;
+    
+
 }
 .cabecalho .nome_titulo{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 2px;
 }
-.topo {
 
-    background-color: aqua;
-    margin-top: 2px;
-}
 
 .topo #botao_topo #img_linkedin{
     width: 5px;
