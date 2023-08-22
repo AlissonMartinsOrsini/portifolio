@@ -16,9 +16,9 @@
 }
 .corpo #foto-de-frente{
 
-    width: 500px;
-    height: 1000px;
-    position:relative;
+    width: 395px;
+    height: 600px;
+    float:right;
     
 
 }
