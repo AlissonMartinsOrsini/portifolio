@@ -4,14 +4,15 @@
     margin-top: 2px;
     height: 80px;
     color: black;
+    box-shadow: 5px 5px 10px rgb(116, 45, 40);
     
     
 }
 .semSublinhado{
     text-decoration: none;
 }
-.topo .contato{
-    flex-wrap: nowrap;
+.body_principal .topo .contato{
+
 
 }
 .topo .contato .img-social{
@@ -55,6 +56,7 @@
     width: 395px;
     height: 600px;
     float:right;
+    margin-right: 2px;
     
 }
 .cabecalho .nome_titulo{
