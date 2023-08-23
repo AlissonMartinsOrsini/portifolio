@@ -32,6 +32,16 @@
     font-family: 'Courier New', Courier, monospace;
     
 }
+.corpo .projetos{
+    width: 200px;
+    height: 280px;
+    margin-left: 190px;
+}
+.corpo .texto-calculadora{
+    color: black;
+    max-width: 30%;
+    margin: 50px 100px;
+}
 .corpo #foto-de-frente{
 
     width: 395px;
