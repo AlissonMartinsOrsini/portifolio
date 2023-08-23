@@ -1,8 +1,14 @@
 .topo {
 
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     margin-top: 2px;
-    height: 45px;
+    height: 80px;
+    flex-direction: row;
+}
+.topo .contato #img-social{
+    width: 50px;
+    height: 50px;
+    
 }
 .cabecalho{
     background-color: rgb(50, 50, 179);
@@ -13,6 +19,9 @@
 .corpo{
     margin-top: 2px;
     height: 1500px;
+    background-color: rgb(116, 98, 98);
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 .corpo #foto-de-frente{
 
@@ -20,28 +29,13 @@
     height: 600px;
     float:right;
     
-
 }
 .cabecalho .nome_titulo{
     color: white;
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 2px;
-}
-
-
-.topo #botao_topo #img_linkedin{
-    width: 5px;
-    height: 5px;
-    margin: 0;
-}
-.topo #qr-code{
-    width: 30px;
-    height: 30px;
-    margin: 0;
-}
-.corpo{
-    background-color: rgb(116, 98, 98);
-    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 .body_principal{
@@ -50,7 +44,6 @@
 .rodape{
     background-color: rgb(216, 179, 179);
     bottom: 0;
-    position: fixed;
     width: 100%;
     text-align: center;
 }
