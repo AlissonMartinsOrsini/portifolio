@@ -11,9 +11,20 @@
 .semSublinhado{
     text-decoration: none;
 }
-.body_principal .topo .contato{
-
-
+.topo ul{
+    justify-content: center;
+}
+.menu{
+    
+    list-style: none;
+    
+    
+}
+.menu li{
+    flex-direction: row;
+    position:relative;
+    float: right;
+    margin-right: 50px;
 }
 .topo .contato .img-social{
     width: 50px;
