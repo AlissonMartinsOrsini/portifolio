@@ -56,32 +56,39 @@
 .corpo .texto-principal{
     text-align: center;
     font-size: 35px;
+    margin-bottom: 8px;
+}
+
+.corpo .lista-projetos {
+    display: flex;
+   
+    justify-content: center;
+
 }
 .corpo .projetos{
     width: 200px;
     height: 280px;
     
 }
+
 .corpo .texto-projetos {
     
     display: flex;
     font-size: 20px;
-    margin: 50px 100px;
+    padding: 2px;
+    margin: 0px 50px;
     padding: 2px;
     background-color:#f44e3f;
     width:350px;
     height: 300px;
-    justify-content: space-between;
+    align-items: center;
     
 }
 
 .corpo #foto-de-frente{
 
     width: 395px;
-    height: 600px;
-    float:right;
-    margin-right: 2px;
-    
+    height: 600px;    
 }
 .cabecalho .nome_titulo{
     color: white;
