@@ -20,7 +20,7 @@
     
 }
 .menu li{
-    flex-direction: row;
+    
     position:relative;
     float: right;
     margin-right: 50px;
@@ -79,7 +79,7 @@
     margin: 0px 50px;
     padding: 2px;
     background-color:#f44e3f;
-    width:350px;
+    width:360px;
     height: 300px;
     align-items: center;
     
@@ -106,4 +106,21 @@
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+
+
+
+
+/*
+html diploma
+*/
+
+.certificados{
+    color: white;
+
+    height: 200px;
+    width: 200px;
+    background-color: black;
+
 }
