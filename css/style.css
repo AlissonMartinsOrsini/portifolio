@@ -1,0 +1,42 @@
+
+.cabecalho{
+    background-color: #f44e3f;
+    height: 100px;
+    
+
+}
+
+.cabecalho .nome_titulo{
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.body_principal{
+    background-color: rgba(255, 252, 252, 0.5);
+}
+.rodape{
+    background-color: rgb(216, 179, 179);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+/*
+html diploma
+*/
+
+.certificados{
+    color: white;
+
+    height: 200px;
+    width: 200px;
+    background-color: black;
+
+}

@@ -1,0 +1,41 @@
+.topo {
+
+    background-color: white;
+    margin-top: 2px;
+    height: 80px;
+    color: black;
+    box-shadow: 5px 5px 10px rgb(116, 45, 40);
+    
+}
+.semSublinhado{
+    text-decoration: none;
+}
+.topo ul{
+    justify-content: center;
+}
+.menu{
+    
+    list-style: none;
+    
+    
+}
+.menu li{
+    
+    position:relative;
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+.topo .contato .menu a:hover{
+
+    color: #f44e3f;
+
+}
+.topo .contato .img-social{
+    width: 50px;
+    height: 50px;
+    
+    
+    
+}
