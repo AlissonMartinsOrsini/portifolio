@@ -1,11 +1,13 @@
 .corpo{
     margin-top: 2px;
-    height: 1000px;
     background-color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    
+    display: flex;
+    flex-direction: column;
 }
+    
+
 .corpo .texto-principal{
     text-align: center;
     font-size: 35px;
@@ -23,6 +25,13 @@
     height: 280px;
     
 }
+.corpo .corpo__projetos{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+   
+}
 
 .corpo .corpo__projetos .projetos__apresentacao {
     
@@ -38,8 +47,8 @@
     
 }
 
-.corpo #foto-de-frente{
+.corpo .projetos__foto{
 
-    width: 395px;
-    height: 600px;    
+    margin-top: 150px;
+    
 }
